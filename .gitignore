@@ -1,3 +1,4 @@
 **/*.mp3
 data/
 **/*.csv
+**/*.tar.gz
