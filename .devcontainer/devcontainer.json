@@ -22,7 +22,6 @@
             }
         }
     },
-    "postCreateCommand": "julia -e 'using Pkg; Pkg.activate(\"/home/scientist/.julia/environments/default\"); Pkg.instantiate(); Pkg.precompile();'",
     "postAttachCommand": "sudo setfacl -R -m u:scientist:rwx /workspaces",
     "runArgs": [
         "--gpus",
