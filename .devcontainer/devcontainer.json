@@ -29,6 +29,6 @@
     ],
     "forwardPorts": [8888, 6006],
     "mounts": [
-        "source=/mnt/d/data/school/bird_sounds,target=/data,type=bind,consistency=cached"
+        "source=/home/ben/school/bird-songs/data,target=/data,type=bind,consistency=cached"
     ]
 }
