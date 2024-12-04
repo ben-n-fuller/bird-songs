@@ -1,6 +1,6 @@
+% Provided by Dr. Alan Wisler of Utah State University
+
 function xf = FrameSignal(x,winLen,Step)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
 indt=1:winLen;
 L=length(x);
 
